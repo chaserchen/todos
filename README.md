@@ -8,8 +8,8 @@ using:
   
 ### getting start
 
-1. git clone git@github.com:chaserchen/todos.git  
-2. cd todo
+1. git clone https://github.com/chaserchen/todos
+2. cd todos
 3. npm install
 4. webpack
 5. google-chrome index.html
