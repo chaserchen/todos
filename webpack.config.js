@@ -18,6 +18,16 @@ module.exports = {
             }
 		]
     },
+    plugins: [
+    	new webpack.optimize.UglifyJsPlugin({
+    		compress: {
+    			warnings: true
+    		},
+    		output: {
+    			comments: true
+    		}
+    		}),
+    ],
     resolve: {
         extensions: ['', '.js', '.jsx']
     }
