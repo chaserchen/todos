@@ -6,7 +6,7 @@ using:
   * redux
   * webpack  
   
-### getting start
+### how to use
 
 1. git clone https://github.com/chaserchen/todos
 2. cd todos
